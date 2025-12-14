@@ -1,0 +1,2 @@
+Esse Projeto tem esse nome justamente por ser o primeiro repositório e 
+projeto que desenvolvi com os conceitos básicos de GIT e GitHub que venho aprendendo!
