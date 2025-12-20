@@ -1,0 +1,50 @@
+.corpo {
+    background-color:black;
+}
+.photo{
+    padding-top: 5px;
+     border:3px solid yellowgreen;
+    border-radius: 50%;
+}
+.imagem_texto{
+    color:yellowgreen;
+    border:1px solid yellowgreen;
+    padding-left: 30px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#Principal, .Citações, .Citação {
+    color:greenyellow;
+    font-style: italic;
+    padding-left: 20px;
+    border:1px solid yellowgreen;
+    border-radius: 10px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+.Citação {
+    font: size 16px; 
+    font-style: italic;
+    padding-left: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+   
+}
+
+.links {
+    color: yellowgreen;
+}
+.sapiente {
+    color: yellowgreen;
+}
+.contato {
+    color: yellowgreen;
+}
+.site {
+    color: yellowgreen;
+}
+.sábio{
+    color:yellowgreen;
+}   

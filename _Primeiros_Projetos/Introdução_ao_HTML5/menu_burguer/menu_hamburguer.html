@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Menu Hamburguer</title>
+        <style>
+            *{
+                padding:0;
+                margin:0;
+                box-sizing: border-box;
+            }
+            .caixa{
+                background-color: black;
+                width:100%;
+                height:100vh;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
+            .checkcaixa label{
+                height: 100px;
+                width: 100px;
+                display: flex;
+                justify-content: center;
+                position: relative;
+                cursor: pointer;
+            }
+            .traço {
+                width:90px;
+                height:8px;
+                background-color: yellowgreen;
+                position: absolute;
+                border-radius:4px;
+                transition:0.5s ease-in-out;
+            }
+            .traço:nth-child(1) {
+                top: 26px;
+                transform: rotate(0);
+            }
+            .traço:nth-child(2) {
+            top:46px;
+            transform: rotate(0);
+            }
+            .traço:nth-child(3) {
+            top:66px;
+            transform: rotate(0);
+            }
+            #interruptor {
+                display:none;
+            }
+            #interruptor:checked + .checkcaixa .traço:nth-child(1) {
+                transform:rotate(45deg);
+                top:47px;
+            }
+            #interruptor:checked + .checkcaixa .traço:nth-child(2) {
+                transform: translateX(-100);
+                width:(30px);
+                visibility: hidden;
+                opacity:0; 
+            }
+            #interruptor:checked + .checkcaixa .traço:nth-child(3){
+                transform: rotate(-45deg);
+                top: 47px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="caixa">
+            <div class="checkcaixa">
+                <input type="checkbox" id="interruptor">
+                <label class="checkcaixa" for="interruptor">
+                    <div class="traço"></div>
+                    <div class="traço"></div>
+                    <div class="traço"></div>
+                </label>
+            </div>
+        </div>
+    </body>
+</html>
