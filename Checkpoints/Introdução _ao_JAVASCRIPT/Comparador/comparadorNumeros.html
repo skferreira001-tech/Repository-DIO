@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Comparador</title>
+</head>
+<body>
+    <div class="comparador-wrapper">
+        <h1>Comparador</h1>
+        <div class="comparador">
+            <input type="number" class="n1" id="n1" placeholder="Digite aqui seu número">
+            <input type="number"  class="n2" id="n2" placeholder="Digite aqui seu número">
+            <div class="resposta">
+                <button onclick="soma()" class="botao">Analisar e Somar</button>
+                <h2><span id="resposta"></span></h2>
+                <button onclick ="reiniciar()" class="botao">Próxima comparacão!</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
