@@ -24,8 +24,8 @@ const alunos = [
 function alunosAprovados (arr, media) {
     let aprovados = [];
    
-    for(i=0; i<arr.length; i++); {
-        const {nota, nome} = arr[i];
+    for(let i = 0; i < arr.length; i++) {
+        const { nota, nome } = arr[i];
 
         if(nota >= media) {
             aprovados.push(nome);
@@ -34,4 +34,4 @@ function alunosAprovados (arr, media) {
     
     return aprovados;
 }
-console.log(alunosAprovados(alunos, 5))
+console.log(alunosAprovados(alunos, 7))
